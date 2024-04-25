@@ -3,6 +3,7 @@ import React,{useState,useRef} from 'react';
 const Test10 = () => {
     const [data,setData]= useState([])
     const nameRef =useRef()
+    const seq = useRef(1) // 시퀀스 기능 
     const [dto,setDto]= useState({
         name:'',
         age:''
@@ -24,6 +25,7 @@ const Test10 = () => {
         if(!name ||!age) return
         setData([...data,
             {
+                seq:seq.current++,
                 name:name,
                 age:age
             }
@@ -47,7 +49,7 @@ const Test10 = () => {
             <ul>
             {
                 data.map((item,index)=>
-                    <li key={index} > {item.name}/{item.age}</li> 
+                    <li key={item.seq} > {item.seq}/{item.name}/{item.age}</li> 
                 )
             }
             </ul>
