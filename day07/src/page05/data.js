@@ -1,0 +1,37 @@
+export default [
+    {
+        id:'1',
+        name:'pig',
+        description:'pig',
+        url:'https://cdn.pixabay.com/photo/2024/03/14/08/52/pug-8632718_1280.jpg',
+        price:20000
+    },
+    {
+        id:'2',
+        name:'pig1',
+        description:'pig1',
+        url:'https://cdn.pixabay.com/photo/2023/09/25/03/27/ai-generated-8274116_640.png',
+        price:200000
+    },
+    {
+        id:'3',
+        name:'pig2',
+        description:'pig2',
+        url:'https://cdn.pixabay.com/photo/2024/04/18/19/14/monkey-8704855_640.jpg',
+        price:2000000
+    },
+    {
+        id:'4',
+        name:'pig3',
+        description:'pig3',
+        url:'https://cdn.pixabay.com/photo/2024/03/14/08/52/pug-8632718_1280.jpg',
+        price:20000000
+    },
+    {
+        id:'5',
+        name:'pig4',
+        description:'pig4',
+        url:'https://cdn.pixabay.com/photo/2023/10/19/21/08/ai-generated-8327632_640.jpg',
+        price:200000000
+    }
+]
